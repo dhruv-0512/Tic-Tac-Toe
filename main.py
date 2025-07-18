@@ -8,7 +8,7 @@ def game():
         for i in range(3):
             print(i, ' | '.join(board[i]))
             if i < 2:
-                print("  -----------")
+                print("  ------------")
         print()
 
     def selectXorO():
